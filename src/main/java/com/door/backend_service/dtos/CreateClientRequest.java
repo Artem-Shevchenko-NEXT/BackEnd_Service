@@ -1,11 +1,6 @@
 package com.door.backend_service.dtos;
 
-/**
- * Request DTO for creating a new client.
- * This is used when clients send POST requests to create new Client entities.
- * Separating request DTOs from entity DTOs allows for different validation rules
- * and prevents clients from setting fields that should be auto-generated (like ID or createdDate).
- */
+
 public class CreateClientRequest {
 
     private String clientName;
