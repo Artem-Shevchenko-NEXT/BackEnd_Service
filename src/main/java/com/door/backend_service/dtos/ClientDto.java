@@ -2,12 +2,7 @@ package com.door.backend_service.dtos;
 
 import java.time.LocalDateTime;
 
-/**
- * Data Transfer Object (DTO) for Client entity.
- * DTOs are used to transfer data between the API layer and clients.
- * This separates the internal entity representation from the external API contract,
- * providing better control over what data is exposed and received.
- */
+
 public class ClientDto {
 
     private Long clientId;
